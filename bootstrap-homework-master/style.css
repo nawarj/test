@@ -1,0 +1,51 @@
+:root {
+    --nav-color: #696969;
+    --sec-bg: #181818;
+    --sec-1-bg: #282828;
+}
+
+.navbar {
+    /* background-color: var(--nav-color); */
+    padding: 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-link.active {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    background-color: #404040 !important;
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: #fff !important;
+    border: none;
+    padding: 0.25rem;
+    font-size: 1rem;
+}
+
+.first-sec {
+    background-color: var(--sec-bg);
+}
+
+.first-sec p {
+    letter-spacing: 5px;
+}
+
+.second-sec {
+    background-color: var(--sec-1-bg);
+}
+
+.third-sec {
+    background-color: var(--sec-bg);
+}
